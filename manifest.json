@@ -1,0 +1,12 @@
+{
+    "name": "Meet autorecord",
+    "version": "1.0",
+    "description": "Extension that beings recording a meet session as soon as you join",
+    "content_scripts":[
+        {
+            "matches": ["https://meet.google.com/*"],
+            "js": ["contentscript.js"]
+        }
+    ],
+    "manifest_version": 2
+}
